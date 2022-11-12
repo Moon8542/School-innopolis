@@ -324,6 +324,10 @@
   padding: 105px 0 65px;
 }
 
+.feature__header {
+  margin-bottom: 88px;
+}
+
 .feature__heading {
   margin: 0;
   margin-bottom: 28.5px;
@@ -350,6 +354,7 @@
 .feature__line {
   width: 130px;
   height: 2px;
+  margin: 0 auto;
   background-color: rgba(255, 45, 45, 1);
   border: none;
 }
@@ -391,4 +396,11 @@
 .feature__products {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
+}
+
+.feature__product {
+  width: 297px;
+  object-fit: cover;
+  object-position: 0% 50%;
 }
