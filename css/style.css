@@ -396,7 +396,7 @@
 .feature__products {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .feature__product {
