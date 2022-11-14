@@ -52,6 +52,10 @@
   url('../fonts/open-sans-v34-latin-800italic.woff') format('woff'); 
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
 /* Page */
 
 .page {
@@ -351,7 +355,7 @@
   text-align: center;
 }
 
-.feature__line {
+.hor-line {
   width: 130px;
   height: 2px;
   margin: 0 auto;
@@ -396,7 +400,7 @@
 .feature__products {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
 }
 
 .feature__product {
