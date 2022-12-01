@@ -79,6 +79,7 @@ button {
 .page__inner {
   display: block;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .page__inner_intro {
@@ -288,6 +289,7 @@ button {
 
 .services {
   display: flex;
+  flex-wrap: wrap;
   max-width: 1249px;
   margin: 0 auto;
   padding: 0 1vw;
