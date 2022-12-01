@@ -315,7 +315,8 @@ button {
   margin-bottom: 50px;
   font-family: 'Open Sans', sans-serif;
   font-size: 42px;
-  font-weight: 700;font-variation-settings: "wght" 700;
+  font-weight: 700;
+  font-variation-settings: "wght" 700;
   line-height: 55px;
   letter-spacing: 1px;
   text-transform: uppercase;
