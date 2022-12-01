@@ -200,13 +200,14 @@ button {
 }
 
 .intro__info {
-  max-width: 595px;
+  /* max-width: 595px; */
   margin-right: 2vw;
+  width: min(50%, 595px);
 }
 
 @media screen and (max-width: 1240px){
   .intro__info {
-    width: 50%;
+    /* width: 50%; */
     margin-right: initial;
   }
 }
@@ -220,14 +221,14 @@ button {
 
 .intro__heading {
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+  font-size: clamp(2em, 2em + 2vw, 60px);
   line-height: 1.2;
   font-weight: 800;
   font-variation-settings: "wght" 800;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin: 0;
-  margin-bottom: 37px;
+  margin-bottom: 19px;
   margin-top: -15px;
   color: rgba(0, 0, 0, 1);
 }
@@ -273,6 +274,7 @@ button {
 
 .intro__video {
   width: 551px;
+  width: min(50%, 551px);
   height: 356px;
   object-fit: cover;
   box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
@@ -280,7 +282,7 @@ button {
 
 @media screen and (max-width: 1240px){
   .intro__video {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 
