@@ -849,7 +849,7 @@ button {
 }
 
 .feedback__form > input::placeholder,
-.feedback__form > textarea::placeholder  {
+.feedback__form > textarea::placeholder {
   color: rgba(0, 0, 0, 1);
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
